@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BLEScanner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mac">MAC - %1$s</string>
+    <string name="rssi">RSSI: %1$d</string>
+    <string name="instance">Instance: %1$s</string>
+    <string name="namespace">Namespace: %1$s</string>
+    <string name="uuid">UUID: %1$s</string>
+    <string name="major_minor">Major: %1$s Minor: %2$s</string>
+    <string-array name="BLE_Scanner_Type">
+        <item>All</item>
+        <item>Eddystone</item>
+        <item>iBeacon</item>
+    </string-array>
+</resources>

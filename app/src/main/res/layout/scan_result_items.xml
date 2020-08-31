@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/beacon_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/beacon_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mac" />
+
+            <TextView
+                android:id="@+id/beacon_namespcae_uuid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namespace" />
+
+            <TextView
+                android:id="@+id/beacon_instance_major_minor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instance" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/beacon_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/rssi" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
